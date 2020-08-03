@@ -1,0 +1,13 @@
+{
+    "name": "wrsft/compound-calculator",
+    "description": "calculate time required to go from principal amount to future amount",
+    "require": {
+        "symfony/console": "^5.0"
+    },
+    "autoload": {
+         "psr-4": {
+             "Console\\": "src"
+         },
+         "classmap": ["src"]
+     }
+}
